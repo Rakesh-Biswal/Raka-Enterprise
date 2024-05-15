@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.image{
+    border:2px solid transparent;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container{
+    border-radius: 32px;
+    background-color: rgb(61 21 21);
+    padding: 20px;
+    width: 400px;
+}
+
+#black{
+    background-color: black;
+}
+#brown{
+    background-color: brown;
+}
+#red{
+    background-color: red;
+}
+#orange{
+    background-color: orange;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#violet{
+    background-color: violet;
+}
+#white{
+    background-color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    row-gap: 9vh;
+    column-gap: 4vw;
+    width:fit-content;
+}

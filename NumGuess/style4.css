@@ -1,0 +1,157 @@
+@keyframes animate {
+    from {
+        opacity: 0;
+        transform: scale(100%);
+        color:black;
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(160%);
+        color: green;
+    }
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    background-color: brown;
+}
+
+.container {
+    border: 3px solid white;
+    width: 400px;
+    background-color: rgb(216, 200, 166);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12vh;
+}
+
+#information {
+    width: auto;
+    text-align: center;
+    width: 290px;
+    margin: -10px;
+}
+
+#displayIPOP {
+    border: 2px solid black;
+    background-color: rgb(230, 186, 57);
+    height: 51px;
+    width: 245px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 11px 5px 5px 2px greenyellow;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+#subDel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vh;
+    margin-top: 3vh;
+}
+
+#NewGame,
+#submit {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: #99a1a1;
+    filter: blur(1px);
+    transition: all 0.2s ease-in-out;
+}
+
+
+#NewGame:hover,
+#submit:hover {
+    background-color: aqua;
+}
+
+#NewGame:active,
+#submit:active {
+    background-color: rgb(174, 53, 53);
+}
+
+
+.Previous,
+.remaining {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#PreviousGuessOP,
+#remainingGuessOP {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 20px;
+    width: fit-content;
+    padding: 10px;
+    visibility: hidden;
+}
+
+.lastElement {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 1.7vh;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#start {
+    border: 3px solid transparent;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    cursor: pointer;
+}
+
+#start:active {
+    background-color: yellow;
+}
+
+#timer {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 22px;
+
+}
+
+#watchTimer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(50, 239, 12);
+    margin-top: 3vh;
+}

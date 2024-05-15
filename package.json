@@ -1,0 +1,11 @@
+{
+  "name": "rk-enterprises",
+  "version": "1.0.0",
+  "description": "heloo world",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "author": "rakesh",
+  "license": "ISC"
+}
